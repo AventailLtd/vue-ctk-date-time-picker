@@ -23,7 +23,7 @@
 
 <script>
   import moment from 'moment'
-  import CustomButton from '@/VueCtkDateTimePicker/_subs/CustomButton'
+  import CustomButton from '../../../../CustomButton'
 
   const SHORTCUT_TYPES = ['day', 'date', '-day', 'isoWeek', 'quarter', '-isoWeek', 'month', '-month', 'year', '-year', 'week', '-week']
 

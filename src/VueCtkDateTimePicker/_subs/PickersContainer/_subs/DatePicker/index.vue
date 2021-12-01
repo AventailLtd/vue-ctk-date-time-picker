@@ -152,12 +152,12 @@
 
 <script>
   import moment from 'moment'
-  import { getWeekDays } from '@/VueCtkDateTimePicker/modules/month'
+  import { getWeekDays } from '../../../../modules/month'
   import RangeShortcuts from './_subs/RangeShortcuts'
   import YearMonthSelector from './_subs/YearMonthSelector'
   import WeekDays from './_subs/WeekDays'
-  import CustomButton from '@/VueCtkDateTimePicker/_subs/CustomButton'
-  import KeyboardAccessibility from '@/VueCtkDateTimePicker/mixins/keyboard-accessibility'
+  import CustomButton from '../../../../_subs/CustomButton'
+  import KeyboardAccessibility from '../../../../mixins/keyboard-accessibility'
 
   export default {
     name: 'DatePicker',
