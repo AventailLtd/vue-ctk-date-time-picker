@@ -31,11 +31,4 @@
       color: #a8a8a8 !important;
     }
   }
-  @media screen and (max-width: 415px) {
-    &:not(.inline) {
-      .datepicker-week {
-        height: 21px !important;
-      }
-    }
-  }
 </style>
